@@ -565,19 +565,12 @@ $sorgu = $baglanti->query($sorgu) or die($sorgu);
 return $sorgu;
 }
 ?>
-<?php require_once('siniflar/class.upload.php');
-?>
 <?php function ed($deger,$degilse_deger="") {
 	if($deger!="") {
 		echo $deger;
 	} else {
 		echo $degilse_deger;
 	}
-} ?>
-
-
-<?php function truncgil(){
-	echo "<a href='http://truncgil.com/' target='_blank'><img src='kobetik/truncgil.png' width='100' alt='' /></a>";
 } ?>
 <?php function strtoupperTR($str)
 {
